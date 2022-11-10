@@ -16,3 +16,27 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  background-color: rgb(173, 185, 212);
+}
+
+.field {
+  font-weight: bold;
+}
+.field .value {
+  font-size: 4em;
+  color: #f6fa00;
+}
+
+.field .label {
+  color: #2518df;
+}
+
+.field:not(:last-child) {
+  margin-right: 40px;
+}
